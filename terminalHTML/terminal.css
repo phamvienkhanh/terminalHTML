@@ -1,0 +1,19 @@
+#console {
+    width: 550px;
+    height: 320px;
+    background-color: black;
+}
+
+#console #titlebar
+{
+    width: 550px;
+    height: 20px;
+    background-color: cadetblue;
+}
+
+#console #consoleBtnClose
+{
+    color: red;
+    float: right;
+    margin-right: 5px;
+}
