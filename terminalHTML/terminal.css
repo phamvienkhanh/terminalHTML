@@ -1,14 +1,23 @@
+body 
+{
+    background: url('./bgImage.jpg');
+}
+
 #console {
     width: 550px;
     height: 320px;
-    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #console #titlebar
 {
     width: 550px;
     height: 20px;
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0.5);
 }
 
 #console #consoleBtnClose
@@ -16,4 +25,19 @@
     color: red;
     float: right;
     margin-right: 5px;
+}
+
+#console #textArea 
+{
+    width: 550px;
+    height: 300px;
+    color: forestgreen;
+    font-size: 12px;
+    overflow-y: scroll;
+    
+}
+
+#console #textArea p
+{
+    word-break: break-all;
 }
